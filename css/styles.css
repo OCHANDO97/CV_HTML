@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+
+}
+
+
+.divName {
+    position: absolute;
+    width: 100%;
+    background-color: #0F1458;
+}
+
+header {
+    margin-top:40px; 
+    text-align: right;
+    font-size: 50px;
+    color:white; 
+    font-weight:bold;
+}
+
+.datosPersonales {
+    background-color: #888888;
+    width: 30%;
+    margin:100px 0px 0px 0px;
+}
+
+.contacto {
+    margin-top:250px;
+}
+
+.datosEducation {
+    width: 60%;
+    margin:240px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fotoPersonal {
+    position: absolute;
+    margin: 100px 0px 0px 200px;
+    width:250px;
+    height:250px;
+    border-radius:150px;
+    border:10px solid rgb(244, 244, 244);
+    box-shadow: 5px 5px 40px #d9dbe944;
+    
+   
+}
+
+.misHabilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.subTitle {
+    width:40px;
+    height:40px;
+}
+
+.title {
+    text-align: center;
+    font-size:40px;
+    color: #0F1458;
+    
+
+}
+
+.titleEducation {
+    font-size:40px;
+    width:350px;
+    height:60px; 
+    background-color: #0F1458;
+    text-align: center;
+    border-radius: 50px;
+    color:white; 
+    font-weight:bold;
+    box-shadow: 20px 20px 5px black;
+
+}
+
+.lista {
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+    position: relative;
+    left: 50px;
+}
+
+.subtitle {
+    font-size:35px;
+
+}
+a:hover {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: 'red';
+}
+
+@media screen and (max-width: 640px) {
+   
+    .divName {
+        position: absolute;
+        width: 130%;
+        background-color: #0F1458;
+    }
+
+    header {
+        font-size: 18px;
+    }
+
+    .fotoPersonal {
+        position: absolute;
+        right: 250px;
+        bottom: 700px;
+        width:150px;
+        height:150px;
+               
+    }
+
+    .titleEducation {
+        font-size:30px;
+        width:200px;
+        height:70px; 
+        background-color: #0F1458;
+        margin: 0px 0px 10px 100px;
+        
+    
+    }
+
+    .datosPersonales {
+        background-color: #888888;
+        width: 100%;
+        margin:0px 0px 0px 0px;
+    }
+
+    .lista {
+        font-size:17px;
+        
+    }
+ 
+    .subtitle {
+        position: relative;
+        font-size:25px;
+        left: 50px;
+        
+    
+    }
+    
+
+  }
+
+  @media screen and (max-width: 375px) {
+   
+    .divName {
+        position: absolute;
+        width: 140%;
+        background-color: #0F1458;
+    }
+
+
+
+    .fotoPersonal {
+        position: absolute;
+        right: 210px;
+        bottom: 470px;
+        width:150px;
+        height:150px;
+               
+    }
+
+
+  }
+
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+    
+    .divName {
+        position: absolute;
+        width: 130%;
+        background-color: #0F1458;
+    }
+
+    header {
+        font-size: 30px;
+    }
+
+    .fotoPersonal {
+        position: absolute;
+        left: -100px;
+        bottom: 750px;
+        width:250px;
+        height:250px;
+               
+    }
+
+    .titleEducation {
+        font-size:35px;
+        width:200px;
+        height:70px; 
+        background-color: #0F1458;
+        margin: 0px 0px 10px 100px;
+        
+    
+    }
+
+    .datosPersonales {
+        background-color: #888888;
+        width: 100%;
+        margin:0px 0px 0px 0px;
+    }
+
+    .lista {
+        font-size:25px;
+        
+    }
+ 
+    .subtitle {
+        position: relative;
+        font-size:40px;
+        left: 50px;
+        
+    
+    }
+    
+
+  }
+
+ 
